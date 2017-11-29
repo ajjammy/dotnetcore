@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace yoweb_core1
+namespace dotnet_core_1x
 {
     public class Program
     {
