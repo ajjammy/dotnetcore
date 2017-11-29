@@ -1,8 +1,4 @@
-# .NET Core command-line interface (CLI) tools
-+ `$dotnet --version` ตรวจสอบ version ของ .NET Core
-+ [คำสั่งอื่นๆ](https://github.com/ajjammy/dotnetcore/wiki/NET-Core-command-line-interface-(CLI)-tools)
-
-
+# .NET Core
 
 # .NET Core 1.x
 # yoweb-core1
