@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace dotnet_new_core2
+namespace dotnet_core_2x
 {
     public class Startup
     {
