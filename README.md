@@ -1,3 +1,6 @@
+### คำสั่ง `$dotnet --version` ตรวจสอบ version ของ .NET Core
+
+
 # .NET Core 1.x
 ## วิธีสร้าง dotnet-core-1x project
 1. สร้างจาก template ของ Visual Studio Project โดยใช้ [Yeoman](https://docs.asp.net/en/latest/client-side/yeoman.html)
@@ -22,10 +25,10 @@
 
 # .NET Core 2.x
 ## วิธีสร้าง dotnet-core-2x project
- `$dotnet --version` ตรวจสอบ version ของ .NET Core
 1. สร้างโดยใช้คำสั่ง `$dotnet new web -n dotnet-core-2x`
-2. พิมพ์คำสั่ง `$dotnet run` สั่งรัน application 
-3. เรียกใช้งานผ่าน url http://localhost:5000 เพื่อดูผลลัพธ์จะแสดงคำว่า Hello World!
+2. เข้าไปใน folder `$cd dotnet-core-2x`
+3. พิมพ์คำสั่ง `$dotnet run` สั่งรัน application 
+4. เรียกใช้งานผ่าน url http://localhost:5000 เพื่อดูผลลัพธ์จะแสดงคำว่า Hello World!
 
 ## Project Structure: dotnet-core-2x
   - ### dotnet-core-2
