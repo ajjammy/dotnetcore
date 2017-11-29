@@ -21,14 +21,14 @@
 
 
 # .NET Core 2.x
-## วิธีสร้าง dotnet-new-core2
+## วิธีสร้าง dotnet-core-2x
 + `$dotnet --version` ตรวจสอบ version ของ .NET Core
-+ สร้างโดยใช้คำสั่ง `$dotnet new web`
++ สร้างโดยใช้คำสั่ง `$dotnet new web -n dotnet-core-2x`
 + พิมพ์คำสั่ง `$dotnet run` สั่งรัน application 
 + เรียกใช้งานผ่าน url http://localhost:5000 เพื่อดูผลลัพธ์จะแสดงคำว่า Hello World!
 
-## Project Structure: dotnet-new-core2
-  - ### dotnet-new-core2
+## Project Structure: dotnet-core-2x
+  - ### dotnet-core-2
     - Program.cs
     - Startup.cs
     - dotnet-new-core2.csproj
