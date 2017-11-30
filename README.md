@@ -35,3 +35,10 @@
     - Program.cs
     - Startup.cs
     - dotnet-core-2x.csproj
+
+
+# สร้าง Solution
+[TODO]
+
+# สร้าง Test Project
+[TODO]
