@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dotnet-core-2x\dotnet-core-2x.csproj" />
+    <ProjectReference Include="..\..\src\dotnet-core-2x\dotnet-core-2x.csproj" />
   </ItemGroup>
 
 </Project>
