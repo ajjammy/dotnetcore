@@ -1,34 +1,37 @@
-# .NET Core 1.x
-## วิธีสร้าง yoweb-core1
-+ สร้างจาก template ของ Visual Studio Project โดยใช้ [Yeoman](https://docs.asp.net/en/latest/client-side/yeoman.html)
-+ สร้างโดยใช้คำสั่ง `$yo aspnet` > เลือก Empty Web Application > ตั้งชื่อ yoweb-core1
-+ เข้าไปใน folder `$cd yoweb-core1`
-+ พิมพ์คำสั่ง `$dotnet restore` เพื่อจัดการ dependencies ใน project
-+ พิมพ์คำสั่ง `$dotnet run` สั่งรัน application
-+ เรียกใช้งานผ่าน url http://localhost:5000 เพื่อดูผลลัพธ์จะแสดงคำว่า Hello World!
+### คำสั่ง `$dotnet --version` ตรวจสอบ version ของ .NET Core
 
-## Project Structure: yoweb-core1
-  - ### yoweb-core1
+
+# .NET Core 1.x
+## วิธีสร้าง dotnet-core-1x project
+1. สร้างจาก template ของ Visual Studio Project โดยใช้ [Yeoman](https://docs.asp.net/en/latest/client-side/yeoman.html)
+2. สร้างโดยใช้คำสั่ง `$yo aspnet` > เลือก Empty Web Application > ตั้งชื่อ dotnet-core-1x
+3. เข้าไปใน folder `$cd dotnet-core-1x`
+4. พิมพ์คำสั่ง `$dotnet restore` เพื่อจัดการ dependencies ใน project
+5. พิมพ์คำสั่ง `$dotnet run` สั่งรัน application
+6. เรียกใช้งานผ่าน url http://localhost:5000 เพื่อดูผลลัพธ์จะแสดงคำว่า Hello World!
+
+## Project Structure: dotnet-core-1x
+  - ### dotnet-core-1x
     - .gitignore
     - Program.cs
     - README.md
     - Startup.cs
+    - dotnet-core-1x.csproj
     - global.json
     - runtimeconfig.template.json
     - web.config
-    - yoweb-core1.csproj
 
 
 
 # .NET Core 2.x
-## วิธีสร้าง dotnet-core-2x
-+ `$dotnet --version` ตรวจสอบ version ของ .NET Core
-+ สร้างโดยใช้คำสั่ง `$dotnet new web -n dotnet-core-2x`
-+ พิมพ์คำสั่ง `$dotnet run` สั่งรัน application 
-+ เรียกใช้งานผ่าน url http://localhost:5000 เพื่อดูผลลัพธ์จะแสดงคำว่า Hello World!
+## วิธีสร้าง dotnet-core-2x project
+1. สร้างโดยใช้คำสั่ง `$dotnet new web -n dotnet-core-2x`
+2. เข้าไปใน folder `$cd dotnet-core-2x`
+3. พิมพ์คำสั่ง `$dotnet run` สั่งรัน application 
+4. เรียกใช้งานผ่าน url http://localhost:5000 เพื่อดูผลลัพธ์จะแสดงคำว่า Hello World!
 
 ## Project Structure: dotnet-core-2x
   - ### dotnet-core-2
     - Program.cs
     - Startup.cs
-    - dotnet-new-core2.csproj
+    - dotnet-core-2x.csproj
