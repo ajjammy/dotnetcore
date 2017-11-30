@@ -61,7 +61,7 @@
 1. สร้างไฟล์ FizzBuzzTest.cs ใน fizzBuzzTest project 
 2. สร้างไฟล์ FizzBuzz.cs ใน dotnet-core-2x project 
 3. Add reference project 
-   ด้วยคำสั่ง `dotnet add reference ../dotnet-core-2x/dotnet-core-2x.csproj`
+   ด้วยคำสั่ง `$dotnet add reference ../dotnet-core-2x/dotnet-core-2x.csproj`
 
 
 
